@@ -1,0 +1,14 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 1.6.2
+*/
+@media only screen and (max-width: 767px){
+#Subheader {
+    padding-top:0px !important;
+	padding-bottom:0px !important;
+}}
