@@ -1,0 +1,47 @@
+body {
+    background: #ffffff;
+    margin: 8px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+	align-items: left;
+    height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+
+#header {
+    margin: 10px;
+    color: black;
+    font-family: "Precisely";
+    font-weight: 300;
+    font-size: max(1.5vw, 9px);
+}
+
+#turn-container {
+    margin: 10px;
+    color: black;
+    font-family: "Precisely";
+    font-weight: 300;
+    font-size: max(1.5vw, 9px);
+}
+
+#footer {
+    margin: 10px;
+    color: black;
+    font-family: "Precisely";
+    font-weight: 300;
+    font-size: max(1.5vw, 9px);
+}
+
+
+
+
+
+div {
+border:1px solid red !important;
+}
+

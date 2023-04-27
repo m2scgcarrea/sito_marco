@@ -6,21 +6,86 @@
     <meta name="viewport" content="width=device-width">
     <script async defer src="https://embed.engageone.video/latest/playerPlugin.js"></script>
     <link rel="stylesheet" href="./css/styles.css" type="text/css" media="all">
+
 </head>
 <body>
-    <div id="container">
-        <div id="header" {LOGO_CONTAINER}>
-            <a href="www.precisely.com" target="_blank">
-                <img id="logo-image" alt="www.m2sc.it" src="https://m2sc.it/wp-content/uploads/2020/10/logo-260x98.png">
-            </a>
-        </div>
+    <div id="container_m2sc">
+        <div id="header_m2sc">
+			<div class="logo_m2sc">
+				<a href="www.precisely.com" target="_blank">
+					<img id="logo-image" alt="www.m2sc.it" src="https://m2sc.it/wp-content/uploads/2020/10/logo-260x98.png">
+				</a>
+			</div>
+			<div class="contact_m2sc">
+				<ul class="nav site-nav">
+					<li class="flyout"><a href="#">L'AZIENDA</a>
+						<ul class="flyout-content nav stacked">
+							<li><a href="https://m2sc.it/azienda/#chi-siamo">Chi siamo</a></li>
+							<li><a href="#">Mission e Vision</a></li>
+							<li><a href="#">Parter</a></li>
+						</ul>
+					</li>
+					<li class="flyout"><a href="#">SOLUZIONI</a>
+						<ul class="flyout-content nav stacked">
+							<li><a href="#">Chi siamo</a></li>
+							<li><a href="#">Mission e Vision</a></li>
+							<li><a href="#">Parter</a></li>
+						</ul>
+					</li>
+					<li class="flyout"><a href="#">MERCATI</a>
+						<ul class="flyout-content nav stacked">
+							<li><a href="#">Chi siamo</a></li>
+							<li><a href="#">Mission e Vision</a></li>
+							<li><a href="#">Parter</a></li>
+						</ul>
+					</li>
+					<li class="flyout"><a href="#">MEDIA E VIDEO</a>
+					</li>
+					<li class="flyout"><a href="#">EVENTI</a>
+					</li>
+				</ul>
+			</div>
+        </div>	
 		<div id="turn-container">
 			<div id="embed-container">
 				<div id="eocv-player" data-project="64257ba794d7d7fc830b1e45" data-region="eu-central-1"></div>
-				<div id="eocv-banner" <p>PROVANESO</p></div>
+			</div>
+			<div id="eocv-banner">
+				<div id="sopra-banner">
+				</div>
+				<div id="sotto-banner">
+						<div class="banner" id="banner1">
+							<a href="https://www.precisely.com/" target="_blank">
+								<img id="logo-precisely" src="https://m2sc.it/wp-content/uploads/2020/10/logo_precisely-150x43.png">
+							</a>
+						</div>
+						<div class="banner" id="banner2">
+							<a href="https://www.crawfordtech.com/" target="_blank">
+								<img id="logo-crawford" src="https://m2sc.it/wp-content/uploads/2020/10/logo_crawford_tech-150x32.jpg">
+							</a>
+						</div>
+						<div class="banner" id="banner3">
+							<a href="https://www.adobe.com/" target="_blank">
+								<img id="logo-adobe" src="https://m2sc.it/wp-content/uploads/2020/10/logo_adobe-60x75.jpg">
+							</a>
+						</div>
+				</div>
 			</div>
 		</div>
-        <div id="footer" <p>&lt;div id=&quot;banner-ad&quot; style=&quot;width: 300px; height: 250px;&quot;&gt;r/><span style="color:#FFFFFF">© </span><span style="color:#FFFFFF">2023</span><span style="color:#FFFFFF"> Precisely. All rights reserved.</span></p></div>
+        <div id="footer" 
+			<p> M.2S.C. S.r.l. - Via Oslavia, 24 - 20900 Monza MB – Italy - P.IVA: 08121550019</p><a href="https://m2sc.it/privacy-policy/">Privacy Policy</a> - <a href="https://m2sc.it/termini-duso/">Termini d'uso</a> - <a href="https://m2sc.it/privacy-policy/#cookies">Cookie Policy</a><br>Copyright @2021 M.2S.C. S.r.l. All rights reserved worldwide. Realizzato da <a href="https://focusinformatica.com/" target="_blank" rel="nofollow">Focus Informatica</a>
+		</div>
     </div>
+	<script>
+		// Definisci un array con gli ID dei banner disponibili
+		var banners = ["banner1", "banner2", "banner3"];
+		// Genera un numero casuale tra 0 e il numero di banner - 1 (3-1 = 2)
+		var randomIndex = Math.floor(Math.random() * banners.length);
+		// Trova il banner corrispondente all'indice generato
+		var bannerToShow = document.getElementById(banners[randomIndex]);
+		// Mostra il banner selezionato (cambia lo stile "display" da "none" a "block")
+		bannerToShow.style.display = "flex";
+	</script>
+
 </body>
 </html>
