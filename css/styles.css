@@ -79,18 +79,19 @@ body {
 }
 
 #myButton {
+  display: none;
   position: fixed;
   background-color: Transparent;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:contain;
   cursor: pointer;
   border:Transparent;
-  background-image: url("https://m2scgcarrea.github.io/sito_marco/images/images.png"); 
-  top: 200px;
-  right: 300px;
-  width: 100px;
-  height: 100px;
+  background-image: url("https://m2scgcarrea.github.io/sito_marco/images/output.gif"); 
+  top: 20px;
+  right: 600px;
+  width: 110px;
+  height: 90px;
   z-index: 2;
 }
 
