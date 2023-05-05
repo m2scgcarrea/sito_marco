@@ -80,6 +80,12 @@ body {
 
 #myButton {
   position: fixed;
+  background-color: Transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  cursor: pointer;
+  border:Transparent;
   background-image: url("https://m2scgcarrea.github.io/sito_marco/images/images.jpg"); 
   top: 200px;
   right: 200px;
@@ -88,6 +94,12 @@ body {
   z-index: 2;
 }
 
+#myButton:hover,
+#myButton:focus,
+#myButton:active
+{
+    background-size: 90%;
+}
 
 .banner {
 	display: none; /* Nascondi tutti i banner di default */
