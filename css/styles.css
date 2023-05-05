@@ -78,6 +78,17 @@ body {
 	width: 80%;
 }
 
+#myButton {
+  position: fixed;
+  background-image: url("./images/images.jpg"); 
+  top: 200px;
+  right: 200px;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+
+
 .banner {
 	display: none; /* Nascondi tutti i banner di default */
 	justify-content: center;
