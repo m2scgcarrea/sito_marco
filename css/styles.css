@@ -86,7 +86,7 @@ body {
   background-size:cover;
   cursor: pointer;
   border:Transparent;
-  background-image: url("https://m2scgcarrea.github.io/sito_marco/images/images.jpg"); 
+  background-image: url("/images/images.png"); 
   top: 200px;
   right: 200px;
   width: 100px;
